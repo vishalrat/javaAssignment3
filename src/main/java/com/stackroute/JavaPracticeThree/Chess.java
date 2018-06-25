@@ -10,7 +10,7 @@ public class Chess {
 		 for(int j=0;j<8;j++)
 		 {
 			 
-			 result[i][j]=((i+j)^1)==0?"WW|":"BB|";
+			 result[i][j]=((i+j)&1)==0?"BB|":"WW|";
 			
 		 }
 		 

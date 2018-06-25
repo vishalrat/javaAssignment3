@@ -14,29 +14,20 @@ public class ChessTest {
 	      //Arrange
 		Chess chess=new Chess();
 	      //Act
-		String[][] chessString = {{
-				"BB|" ,"WW|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,},
+		String[][] chessString = {{"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,},
+				{"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,},
 
-		{
-		"WW|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,},
+		{"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,},
 
-		{
-		"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,},
+		{"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,},
 
-		{
-		"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,},
+		{"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,},
 
-		{
-		"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,},
+		{"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,},
 
-		{
-		"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,},
+		{"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,},
 
-		{
-		"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,},
-
-		{
-		"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,"BB|" ,}};
+		{"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,"WW|" ,"BB|" ,}};
 
 
 	      //Assert
