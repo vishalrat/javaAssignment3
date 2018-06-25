@@ -16,13 +16,13 @@ public class VowelsRemoveTest {
 		VowelsRemove vowelsRemove=new VowelsRemove();
 	      //Act
 		String[] stuGradesBefore = new String[]{ "India","United States" }; 
-		String[] stuGradesAfter = new String[]{ "nd","Untd Stts" }; 
+		String[] stuGradesAfter = new String[]{ "nd","ntd Stts" }; 
 
 	      //Assert
 		
-	      assertEquals(stuGradesBefore,vowelsRemove.vowelsRemoveCountries(stuGradesBefore));
+	      assertEquals(stuGradesAfter,vowelsRemove.vowelsRemoveCountries(stuGradesBefore));
 	   }
-	
+	 
 	@Test
 	  public void testValid1() {
 	      //Arrange
@@ -32,8 +32,8 @@ public class VowelsRemoveTest {
 		String[] stuGradesAfter = new String[]{ "grmny","gypt" ,"czchslvk" }; 
 
 	      //Assert
-		
-	      assertEquals(stuGradesBefore,vowelsRemove.vowelsRemoveCountries(stuGradesBefore));
+		 
+	      assertEquals(stuGradesAfter,vowelsRemove.vowelsRemoveCountries(stuGradesBefore));
 	   }
 
 }
